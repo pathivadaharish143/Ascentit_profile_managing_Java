@@ -1,0 +1,7 @@
+
+
+#container { width: 80%; margin: auto; background-color: grey; padding: 20px; }
+.row{height: auto; margin: auto; padding: 20px;}
+.left{float: left;}
+.center{float: left;margin: 0 3%;}
+.right{float: right;}
