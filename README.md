@@ -1,12 +1,3 @@
-                   PROJECT
- (US IT Candidate Data Management & Analytics System)
- 
-Project Humble :
-
-It is a system designed to streamline and improve the efficiency of IT recruitment processes. With a user-friendly interface, the process of candidate searching and storing data in your company. Currently, employees collect candidate details and documents through LinkedIn and Naukri. However, this data is stored individually, and if an employee leaves the company, the data is lost. To solve this, the project aims to create a centralized database where all employee-gathered data and documents are stored.
-When an employee collects candidate data, they must upload it to the company database. Additionally, there is a vendor who provides specific requirements for candidates. Employees can use the company database to search for candidates who match these requirements based on experience and technology skills. When the employee leaves the company, the employee will lose access to the application, but the data will still be in the database, which that the employee has been created. This will be helpful to the company to provide resources to other employees in the future.
-For administrative purposes, an admin panel will be created. This panel allows administrators to monitor employee performance. It provides information on how many candidates each employee submitted within a particular date range. Overall, Project Humble aims to streamline candidate recruitment by centralizing data, facilitating efficient candidate searches, and providing managerial insights.
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
