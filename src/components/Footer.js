@@ -7,7 +7,7 @@ import logo from './images/logo.jfif'; // Import your logo image
 
 const Footer = () => {
   const footerStyle = {
-    backgroundColor: '#fd7e14',
+    backgroundColor: '#1f2937',
     position: '', // Fixed position
     bottom: '0',       // Stick to the bottom of the viewport
     width: '100%',     // Full width

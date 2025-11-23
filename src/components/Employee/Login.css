@@ -96,9 +96,107 @@ body {
     color: #039BE5;
 }
 
+/* Error states */
+.wrapper .form-field.error,
+.wrapper .form-field input.error {
+    box-shadow: inset 8px 8px 8px #f8d7da, inset -8px -8px 8px #f5c6cb;
+    border: 1px solid #dc3545;
+}
+
+.error-message {
+    padding-left: 10px;
+    font-size: 0.75rem;
+    margin-bottom: 10px;
+}
+
+.error-message i {
+    font-size: 0.7rem;
+}
+
+/* Alert styles */
+.alert {
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 3px 3px 6px #cbced1, -3px -3px 6px #fff;
+    font-size: 0.85rem;
+}
+
+.alert-danger {
+    background: linear-gradient(145deg, #f8d7da, #f5c6cb);
+    color: #721c24;
+}
+
+/* Button improvements */
+.wrapper .btn {
+    transition: all 0.3s ease;
+    font-weight: 600;
+    position: relative;
+    overflow: hidden;
+}
+
+.wrapper .btn:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.wrapper .btn:disabled:hover {
+    background-color: #6c757d;
+}
+
+.wrapper .btn i {
+    transition: transform 0.3s ease;
+}
+
+.wrapper .btn:hover:not(:disabled) i {
+    transform: scale(1.1);
+}
+
+.fa-spinner {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Form field improvements */
+.wrapper .form-field {
+    transition: all 0.3s ease;
+}
+
+.wrapper .form-field:focus-within {
+    box-shadow: inset 8px 8px 8px #03A9F4, inset -8px -8px 8px #87CEEB;
+}
+
+.wrapper .form-field input:focus {
+    color: #333;
+}
+
+/* Success states */
+.success-message {
+    background: linear-gradient(145deg, #d4edda, #c3e6cb);
+    color: #155724;
+    padding: 10px 15px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+    box-shadow: 3px 3px 6px #cbced1, -3px -3px 6px #fff;
+}
+
 @media(max-width: 380px) {
     .wrapper {
         margin: 30px 20px;
         padding: 40px 15px 15px 15px;
+    }
+    
+    .wrapper .name {
+        font-size: 1.2rem;
+    }
+    
+    .error-message {
+        font-size: 0.7rem;
     }
 }

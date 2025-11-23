@@ -197,7 +197,7 @@ for (const key in profile) {
     <div className="container-fluid py-5 mt-4">
       <Card className="shadow p-3">
         <Card.Body>
-          <Card.Title>Submission Form</Card.Title>
+          <Card.Title>Submittion Form</Card.Title>
         
           <Form onSubmit={handleSubmit} >
             <div className="row mb-4">
